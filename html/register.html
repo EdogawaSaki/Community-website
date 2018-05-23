@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>last</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/register.css">
+</head>
+ <nav class="navbar navbar-inverse navbar-fixed-top ">
+  <div class="container">
+      <div class="navbar-header">
+          <a href="#" class="navbar-brand">
+            <span class="glyphicon glyphicon-leaf "></span>
+            International and Chinese communion Club
+          </a>
+        </div>
+
+  </div>
+</nav>
+<body>
+    <form action="../php/register_db.php" method="post">
+    <h1>会员注册</h1><br><br>
+
+    <dl class="info_name">
+     	<dt class="info_t"><span class="star
+     	">*</span>用户名</dt>
+     	<dd class="info_c"><input type="text" name="username" placeholder="请输入用户名"></input></dd>
+     </dl><br>
+
+     <dl class="info_name">
+        <dt class="info_t"><span class="star
+        ">*</span>真实名</dt>
+        <dd class="info_c"><input type="text" name="realname" placeholder="请输入真实名"></input></dd>
+     </dl><br>
+
+     <dl class="info_password">
+     	<dt class="info_t"><span class="star
+     	">*</span>密码框</dt>
+     	<dd class="info_c"><input type="password" name="password" placeholder="请输入密码"></input></dd>
+     </dl><br>
+
+     <dl clss="info_sex">
+        <dt clss="info_t"><span class="star">*</span>性别</dt>
+        <dd class="info_c">
+            <label><input type="radio" name="user_sex" value="male" />男</label>
+            <label><input type="radio" name="user_sex" value="female" />女</label>
+        </dd>
+    </dl><br>
+    
+    <dl class="email">
+            <dt class="info_t"><span class="star">*</span>邮箱</dt>
+            <dd class="info_c"><input type="email" name="user_email" /></dd>
+    </dl><br>
+
+
+    <div class="su">
+            <input type="submit" value="提交" />
+            <input type="reset" value="重置" />
+    </div>
+</form>
+</body>
+</html>

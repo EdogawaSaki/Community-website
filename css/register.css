@@ -1,0 +1,58 @@
+body{
+	background-image:url(../images/regi.jpg);
+	background-color: #ffc;
+	text-align: center;
+	margin: 10px auto;
+
+}
+form{
+	width: 25%;
+	height: 90%;
+	margin: auto;
+	background-color:#33FFFF ;
+	border-radius: 10px;
+	box-shadow: -5px 5px #ddd;
+	float: right;
+	margin-top: 45px;
+/*	z-index: 10;
+	position: absolute;
+	right: 0;*/
+}
+h1{
+	width: 80%;
+	margin:auto;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+dl{
+	width: 90%;
+	margin-top: 10px;
+	margin:auto;
+}
+dt{
+	width: 20%;
+	text-align: right;
+}
+dd{
+	width: 70%;
+	position: relative;
+	left: 18%;
+	top: -20px;
+}
+span.star{
+	color: red;
+}
+div.su{
+	text-align: center;
+	margin-top: 10px;
+	padding:auto;
+	padding-bottom: 20px;
+}
+
+nav{
+	/*position: absolute;*/
+	
+}
